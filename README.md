@@ -1,4 +1,4 @@
-# valueCalculator
+# Blood Interpret
 This is a project that I created to learn about Javascript. It is used to interpret the results of a blood test, in this case hemoglobine.
 
 #### Used stack
