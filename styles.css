@@ -37,7 +37,7 @@ a {
   padding: 10px;
 }
 
-.filter-item {
+.menu__items__item {
   background: transparent;
   font-size: 1rem;
   text-transform: capitalize;
@@ -51,12 +51,12 @@ a {
   transition: all 0.3s linear;
 }
 
-.filter-item:hover {
+.menu__items__item:hover {
   background: #55d8d8;
   color: #fff;
 }
 
-.menu ul {
+.menu .menu__items {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -76,7 +76,7 @@ li {
   display: block;
 }
 
-.gender {
+.hemoglobine__gender {
   width: 75%;
   display: flex;
   align-items: center;
@@ -90,7 +90,7 @@ li {
   margin-bottom: 20px;
 }
 
-.gender .container {
+.hemoglobine__gender .hemoglobine__gender__container {
   display: block;
   position: relative;
   padding-left: 20px;
@@ -101,26 +101,26 @@ li {
   font-weight: 500;
 }
 
-.form-check-input:checked {
+.hemoglobine__input-radio:checked {
   background-color: #55d8d8;
   border-color: #55d8d8;
 }
 
-.input {
+.hemoglobine__input-value {
   background: #fff;
   border-radius: 12px;
   padding: 20px 0;
   margin-bottom: 20px;
 }
 
-.input label {
+.hemoglobine__input-value label {
   display: block;
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.input input {
+.hemoglobine__input-value .hemoglobine__input_number {
   outline: none;
   border: none;
   border-bottom: 1px solid #55d8d8;
@@ -129,7 +129,7 @@ li {
   font-size: 28px;
 }
 
-.btn-calculator {
+.hemoglobine__button-calculator {
   cursor: pointer;
   color: #fff;
   background: #55d8d8;
@@ -142,21 +142,21 @@ li {
   transition: all 0.5s;
 }
 
-.btn-calculator:hover {
+.hemoglobine__button-calculator:hover {
   background: #81d1d1;
   color: #fff;
 }
 
-.result {
+.hemoglobine__result {
   padding: 10px 20px;
 }
-.result p {
+.hemoglobine__result .hemoglobine__result__text {
   font-weight: 600;
   font-size: 22px;
   color: #000;
   margin-bottom: 15px;
 }
-.result .outcome {
+.hemoglobine__result .hemoglobine__result__outcome {
   font-size: 36px;
   font-weight: 900;
   color: #fff;
