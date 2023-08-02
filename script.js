@@ -1,7 +1,7 @@
-let hemoglobineNumber = document.querySelector(".number");
+let hemoglobineNumber = document.querySelector(".hemoglobine__input_number");
 let male = document.getElementById("male");
 let female = document.getElementById("female");
-let title = document.querySelector(".outcome");
+let title = document.querySelector(".hemoglobine__result__outcome");
 let spaces = document.querySelectorAll(".space");
 
 const showSpace = (link) => {
